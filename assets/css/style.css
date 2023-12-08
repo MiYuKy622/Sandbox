@@ -53,11 +53,8 @@ ul
     top: 280px;
     left: 127px;
     animation: turn 3.5s infinite linear;
-    transform: translate(-50%, -50%);
-
-    
-
 }
+
 .disque
 {
     background-color: blue;
@@ -80,6 +77,10 @@ ul
     }
 }
 
+.pause
+{
+    animation-play-state: paused;
+}
 
 
 
